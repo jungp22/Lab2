@@ -59,12 +59,20 @@ Description : A simple HTML file.
             <li>First item</li>
             <li>Second item</li>
 			<!--Make a sub-ordered list here-->
+                <ol>
+                    <li>First item</li>
+                    <li>Second item</li>
+                </ol>
             <li>Third item</li>
         </ol>
         <p>Unordered List:</p>
         <ul>
             <li>Bullet item</li>
 			<!--Make a sub-unordered list here-->
+            <ul>
+                <li>Another bullet item</li>
+                <li>Yet another bullet item</li>
+            </ul>
             <li>Another bullet item</li>
             <li>Yet another bullet item</li>
         </ul>
@@ -80,7 +88,8 @@ Description : A simple HTML file.
             <dt>HTML</dt>
             <dd>Hypertext Markup Language.</dd>
 			<dt>CSS</dt>
-            <dd><!--Add CSS definition here--></dd>
+            <dd><!--Add CSS definition here-->Used to style HTML
+                elements (e.g., font color, text size).</dd>
         </dl>
 		
         
@@ -110,21 +119,22 @@ Description : A simple HTML file.
 			<tfoot>
 				<tr>
 					<td>Total</td>
-					<td><!--Put column total here--></td>
-					<td><!--Put column total here--></td>
+					<td>$3800</td>
+					<td>$2700</td>
 				</tr>
 			</tfoot>
         </table>
 		
 		<h3>Images:</h3>
         <p>Adding an image:</p>
-        <img src="example.jpg" alt="Example Image"> <!--Fix addressing issue-->
+        <img src="images/example.jpg" alt="Example Image"> <!--Fix addressing issue-->
     </section>
 
     <footer>
         <p>Footer content, like contact info or copyrights.</p>
 		<!--Comment out the above p tag and add a new p tag under this comment.
 			The new p tag must contain {Copy right + your names}.-->	
+        <p>(copyright logo) Copyright 2024 Jung-Hwan Park</p>
     </footer>
 </body>
 </html>
